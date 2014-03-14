@@ -3,7 +3,7 @@ package helpers
 import (
 	"github.com/vito/cmdtest"
 
-	. "github.com/pivotal-cf-experimental/cf-test-helpers/runner"
+	. "github.com/peterellisjones/cf-test-helpers/runner"
 )
 
 func AppUri(appName, endpoint, appsDomain string) string {

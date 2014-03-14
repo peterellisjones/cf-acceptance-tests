@@ -7,10 +7,10 @@ import (
 	. "github.com/onsi/gomega"
 	. "github.com/vito/cmdtest/matchers"
 
-	. "github.com/cloudfoundry/cf-acceptance-tests/helpers"
-	"github.com/cloudfoundry/cf-acceptance-tests/services/helpers"
-	. "github.com/pivotal-cf-experimental/cf-test-helpers/cf"
-	"github.com/pivotal-cf-experimental/cf-test-helpers/generator"
+	. "github.com/peterellisjones/cf-acceptance-tests/helpers"
+	"github.com/peterellisjones/cf-acceptance-tests/services/helpers"
+	. "github.com/peterellisjones/cf-test-helpers/cf"
+	"github.com/peterellisjones/cf-test-helpers/generator"
 )
 
 var _ = Describe("Service Broker Lifecycle", func() {

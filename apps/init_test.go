@@ -3,7 +3,7 @@ package apps
 import (
 	"testing"
 
-	"github.com/cloudfoundry/cf-acceptance-tests/helpers"
+	"github.com/peterellisjones/cf-acceptance-tests/helpers"
 )
 
 func TestServices(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	ginkgoconfig "github.com/onsi/ginkgo/config"
 	"github.com/onsi/ginkgo/reporters"
 
-	"github.com/pivotal-cf-experimental/cf-test-helpers/cf"
+	"github.com/peterellisjones/cf-test-helpers/cf"
 )
 
 func GinkgoBootstrap(t *testing.T, suiteName string) {

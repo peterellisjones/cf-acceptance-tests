@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	. "github.com/cloudfoundry/cf-acceptance-tests/helpers"
+	. "github.com/peterellisjones/cf-acceptance-tests/helpers"
 	. "github.com/onsi/gomega"
-	. "github.com/pivotal-cf-experimental/cf-test-helpers/cf"
-	"github.com/pivotal-cf-experimental/cf-test-helpers/generator"
+	. "github.com/peterellisjones/cf-test-helpers/cf"
+	"github.com/peterellisjones/cf-test-helpers/generator"
 	. "github.com/vito/cmdtest/matchers"
 )
 

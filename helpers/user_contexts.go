@@ -3,7 +3,7 @@ package helpers
 import (
 	"os"
 
-	"github.com/pivotal-cf-experimental/cf-test-helpers/cf"
+	"github.com/peterellisjones/cf-test-helpers/cf"
 )
 
 var AdminUserContext = cf.NewUserContext(os.Getenv("API_ENDPOINT"),
