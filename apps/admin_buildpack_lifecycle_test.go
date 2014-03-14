@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/gomega"
 	. "github.com/vito/cmdtest/matchers"
 
-	"github.com/cloudfoundry/cf-acceptance-tests/apps/helpers"
-	. "github.com/pivotal-cf-experimental/cf-test-helpers/cf"
-	. "github.com/pivotal-cf-experimental/cf-test-helpers/generator"
-	. "github.com/pivotal-cf-experimental/cf-test-helpers/runner"
+	"github.com/peterellisjones/cf-acceptance-tests/apps/helpers"
+	. "github.com/peterellisjones/cf-test-helpers/cf"
+	. "github.com/peterellisjones/cf-test-helpers/generator"
+	. "github.com/peterellisjones/cf-test-helpers/runner"
 )
 
 var _ = Describe("An application using an admin buildpack", func() {
